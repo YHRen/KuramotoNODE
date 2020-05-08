@@ -8,7 +8,7 @@ function kuramotoTwoBody(du,u,p,t)
   K, ω₁, ω₂ = p
   k = K/length(u)
   du[1] = ω₁ + k*sin(θ₁-θ₂)
-  du[2] = ω₂ + k*sin(θ₂-θ₂)
+  du[2] = ω₂ + k*sin(θ₂-θ₁)
 end
 
 # general N-body kuramoto model

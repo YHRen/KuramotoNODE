@@ -11,3 +11,10 @@
 
 ### After many hours... Loss = 29
 ![LV_29](/figs/snapshot_29loss.png)
+
+seems not working...
+
+
+## Spiral
+
+![Spiral](/figs/spiral.gif)
